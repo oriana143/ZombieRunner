@@ -786,8 +786,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 646013027, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
+      propertyPath: hitEffect
+      value: 
+      objectReference: {fileID: 40050967104291112, guid: 2461f075487572645b2666cbb636abb5, type: 3}
+    - target: {fileID: 646013027, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
+      propertyPath: muzzleFlash
+      value: 
+      objectReference: {fileID: 767687840}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
+--- !u!198 &767687840 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 3728411211501348869, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
+  m_PrefabInstance: {fileID: 767687839}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &815341784 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 3681543e5b0f59742b73073cb379cdc6, type: 3}
@@ -2048,6 +2061,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6018225898664314132, guid: 2ac6b42fe900cf94d8471c49d7074c0b, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 1975946624}
     - target: {fileID: 6873350741540592396, guid: 2ac6b42fe900cf94d8471c49d7074c0b, type: 3}
       propertyPath: target
       value: 
